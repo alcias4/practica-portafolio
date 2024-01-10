@@ -1,0 +1,219 @@
+@media (width < 1500px){
+    :root {
+        --width: 80%;
+    }
+}
+
+
+@media (width < 1326px){
+    :root {
+        --width: 90%;
+    }
+
+    .second {
+        width: 80%;
+    }
+
+    .svg2 {
+        margin-bottom: 40px;
+    }
+    .foto {
+        width: 90%;
+    }
+
+    .svg {
+        width: 80%;
+    }
+}
+
+
+@media (width < 1200px){
+    .svg2{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media (width < 1150px){
+    .svg2{
+        width: 300px;
+        height: 300px;
+    }
+
+    .navigator ul li a{
+        display: flex;
+    }
+
+    .navigator ul li a i{
+        display: initial;
+        font-size: 30px;
+        transition: all 400ms ease;
+        position: absolute;
+        align-self: center;
+    }
+
+    .navigator ul li:hover a i{
+        background: rgb(255,250,250);
+        background-clip: text;
+        background: linear-gradient(90deg, rgba(198,65,213,1) 0%, rgba(164,13,255,1) 63%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+    }
+
+
+
+    .navigator ul li:hover::after{
+        width: 0px;
+    }
+    
+
+    .navigator ul li a span {
+        display: none;
+    }
+
+    .whatsapp i {
+        font-size: 30px;
+        display: initial;
+    }
+
+    .whatsapp span {
+        display: none;
+    }
+}
+
+
+@media (width <= 1000px){
+    .person-page{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .info, .img {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foto, .svg {
+        width: 400px;
+        height: 400px;
+        align-self: center;
+    }
+
+    .about-info{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-info div{
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-second, .about-info div{
+        width: 100%;
+    }
+
+    .second {
+        margin-top: 20px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .test{
+        flex-direction: column-reverse;
+    }
+
+    .coment{
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .coment > div {
+        width: 100%;
+        align-self: center;
+    }
+
+    .coment > div::before{
+        width: 100%;
+    }
+
+    .img-testi{
+        width: 90%;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+
+    .slap {
+        width: 100%;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-info,.mensage {
+        width: 100%;
+    }
+
+    .contend-fo{
+        flex-direction: column-reverse;
+    }
+
+    .contend-fo p {
+        width: 100%;
+    }
+
+
+    .contend-fo ul {
+        width: 100%;
+    }
+}
+
+
+@media (width <= 755px){
+    .person-page{
+        padding-top: 100px;
+    }
+
+
+    .info h1{
+        font-size: 60px;
+    }
+
+    header {
+        gap: 0px;
+    }
+
+    .whatsapp {
+        margin-left: 10px;
+    }
+
+    .navigator ul li:hover a i{
+        font-size: 35px;
+    }
+}
+
+
+
+
+@media (width <= 577px){
+    .logo , .whatsapp{
+        font-size: 20px;
+    }
+
+    .navigator ul li a i{
+        font-size: 20px;
+    }
+
+    .navigator ul li:hover a i{
+        font-size: 23px;
+    }
+    .info h1{
+        font-size: 50px;
+    }
+}
